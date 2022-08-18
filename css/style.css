@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background: rgb(36, 36, 36);
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    padding: 2% 0px;
+}
+
+.aviso{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 5%;
+    color: red;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aviso2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 8%;
+    color: gray;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aviso2 span{
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+nav h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+}
+
+section form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+section form .copy{
+    font-size: 30px;
+    bottom: 0;
+    right: 340px;
+    cursor: pointer;
+}
+
+section form .buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1%;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+section form textarea{
+    min-width: 25%;
+    min-height: 400px;
+    resize: none;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(65, 65, 65);
+    color: aliceblue;
+}
+
+.buttons #arrowRight, #arrowLeft{
+    font-size: 95%;
+    background: none;
+    margin-top: 8%;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+    border: none;
+}
+
+#arrowRight:hover,
+#arrowLeft:hover{
+    color: white;
+}
+
+.buttons #arrowMobile{
+    display: none;
+    font-size: 95%;
+    background: none;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+    border: none;
+}
+
+#arrowMobile:hover{
+    color: white;
+}
+
+#btnCopy{
+    font-size: 95%;
+    margin-top: 15%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+
+#btnCopy:hover{
+    color: whitesmoke;
+}
+
+footer{
+    color: gray;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socialMedia img{
+    width: 35px;
+}
+
+
+@media only screen and (max-width: 800px){
+    section form textarea{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    section form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section form .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .buttons #arrowRight, #arrowLeft{
+        display: none;
+    }
+
+    .buttons #arrowMobile{
+        display: inline-block;
+    }
+
+    section form textarea{
+        min-height: 100px;
+    }
+
+    .aviso2 span{
+        margin-right: 5px;
+        font-size: 1em;
+    }
+
+    .aviso2 p{
+        font-size: .9em;
+    }
+
+    footer p{
+        font-size: .7em;
+    }
+
+    .socialMedia img{
+        width: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    section form textarea{
+        height: 150px;
+    }
+}
