@@ -3,8 +3,8 @@
 <img align="center" src="imagens/encriptadorVideo.gif" alt="(Prévia)Video do Encriptador">
 <div align="center">👀 Previa do Encriptador</div>
 
-[<div align="center">![Olá Mundo](https://shields.io/badge/Olá-Mundo-blue)](https://github.com/uandersoncosta/criptografia#readme)
-[![Status](https://shields.io/badge/Tecnologias%20Utilizadas-|%20HTML%205%20|%20CSS%203%20|%20JavaScript%20|-orange)](https://github.com/uandersoncosta/criptografia#readme) 
+[<div align="center">![Olá Mundo](https://shields.io/badge/Olá-Mundo-blue)](https://github.com/uandersoncosta/challengeEncriptadorAlura)
+[![Status](https://shields.io/badge/Tecnologias%20Utilizadas-|%20HTML%205%20|%20CSS%203%20|%20JavaScript%20|-orange)](https://github.com/uandersoncosta/challengeEncriptadorAlura) 
 [![View Deployment](https://shields.io/badge/View-Deployment-yellow.svg)](https://uandersoncosta.github.io/criptografia) [![View Challenge](https://shields.io/badge/View-Challenge-red.svg)](https://github.com/topics/challengeonedecodificador3) </div>
 
 
@@ -34,5 +34,5 @@ A letra **"u"** é convertida para **"ufat"**
 
 [<div align="center">![LinkedIn](https://shields.io/badge/LinkedIn-LinkedIn-aqua)](https://www.linkedin.com/in/uandersoncosta/)
 [![Perfil GitHub](https://shields.io/badge/Perfil-GitHub-blue)](https://github.com/uandersoncosta/)
-[![Portfólio](https://shields.io/badge/Portfólio-Uanderson-brown)](https://github.com/euclides981/criptografia)
+[![Portfólio](https://shields.io/badge/Portfólio-Uanderson-brown)](https://github.com/uandersoncosta/)
 </div>
